@@ -13,7 +13,7 @@ export default function Brand() {
       </div>
 
       <div className="flex flex-wrap justify-between gap-8">
-        {/* Brand Item 1 */}
+        
         <div className="flex flex-col items-center w-1/4 sm:w-1/5 md:w-1/6">
           <FaTruckFast className="text-black text-3xl sm:text-4xl hover:text-orange-500 hover:scale-110 transition-all duration-300" />
           <div className="text-center mt-2">
@@ -22,7 +22,7 @@ export default function Brand() {
           </div>
         </div>
 
-        {/* Brand Item 2 */}
+      
         <div className="flex flex-col items-center w-1/4 sm:w-1/5 md:w-1/6">
           <CiCircleCheck className="text-black text-3xl sm:text-4xl hover:text-green-500 hover:scale-110 transition-all duration-300" />
           <div className="text-center mt-2">
@@ -31,7 +31,7 @@ export default function Brand() {
           </div>
         </div>
 
-        {/* Brand Item 3 */}
+      
         <div className="flex flex-col items-center w-1/4 sm:w-1/5 md:w-1/6">
           <VscCreditCard className="text-black text-3xl sm:text-4xl hover:text-red-500 hover:scale-110 transition-all duration-300" />
           <div className="text-center mt-2">
@@ -40,7 +40,7 @@ export default function Brand() {
           </div>
         </div>
 
-        {/* Brand Item 4 */}
+      
         <div className="flex flex-col items-center w-1/4 sm:w-1/5 md:w-1/6">
           <LuSprout className="text-black text-3xl sm:text-4xl hover:text-yellow-500 hover:scale-110 transition-all duration-300" />
           <div className="text-center mt-2">

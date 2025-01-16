@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <header className="w-full h-[100px] flex justify-center items-center top-0 left-0 right-0 "> {/* Reduced padding */}
-      {/* Navbar */}
+      
       <ul className="flex space-x-6">
         <li><Link href="/plant-pots" className="text-gray-500 hover:text-blue-500">Plant Pots</Link></li>
         <li><Link href="/ceramics" className="text-gray-500 hover:text-blue-500">Ceramics</Link></li>

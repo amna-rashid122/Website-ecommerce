@@ -1,17 +1,17 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { FaLinkedin, FaFacebook, FaInstagram, FaSkype, FaTwitter, FaPinterest } from 'react-icons/fa'; // Importing icons from react-icons
+import { FaLinkedin, FaFacebook, FaInstagram, FaSkype, FaTwitter, FaPinterest } from 'react-icons/fa'; 
 
 const Footer = () => {
-  // Track if the component is mounted on the client
+  
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    // Set the mounted state to true once the component is mounted on the client side
+    
     setMounted(true);
   }, []);
 
-  // Render nothing until the component is mounted to prevent hydration mismatch
+  
   if (!mounted) {
     return null;
   }
@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <footer style={{ backgroundColor: "rgba(42, 37, 75, 1)", color: "white", padding: "40px 20px" }}>
       <div className="flex justify-between items-start space-x-8">
-        {/* Left section: Menu and Our Company */}
+  
         <div className="flex space-x-12">
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Menu</h4>
@@ -54,12 +54,12 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Right section: Email input bar and Sign Up button */}
+        
         <div className="flex flex-col items-start justify-center mt-6" style={{ width: '627px', height: '56px', marginRight: '0px', marginLeft: '10px' }}>
-          {/* Heading above the email bar */}
+          
           <h4 className="text-white mb-2">Join our mailing list</h4>
 
-          {/* Email bar and button attached */}
+         
           <div className="flex w-full">
             <input 
               type="email" 
@@ -70,7 +70,7 @@ const Footer = () => {
                 borderRadius: "0", 
                 border: "1px solid #ccc", 
                 height: '100%',
-                width: '80%',  // Make the email bar take up 80% of the width
+                width: '80%',  
                 left: '730px'
               }}
             />
@@ -84,12 +84,12 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer bottom section */}
+      
       <div className="flex flex-col mt-6 border-t border-gray-400 pt-4">
-        {/* Left: Copyright Text with margin-top */}
+        
         <p className="text-sm mt-2">Copyright 2022 Avion LTD</p>
 
-        {/* Right: Social media icons */}
+    
         <div className="flex space-x-4 mt-4 justify-end">
           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500">
             <FaLinkedin size={24} />

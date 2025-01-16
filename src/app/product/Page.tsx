@@ -1,12 +1,12 @@
 
 import Image from "next/image";
-import Link from "next/link"; // Import Link component from Next.js
+import Link from "next/link"; 
 
 interface Iproducts {
   title: string;
   price: string;
   img_url: string;
-  id: number; // Add 'id' for dynamic routing
+  id: number; 
 }
 
 let product: Iproducts[] = [
@@ -46,7 +46,7 @@ export default function Products() {
             key={data.title}
             className="w-[305px] bg-transparent p-4 transition-all duration-300 hover:scale-105 flex flex-col overflow-hidden"
           >
-            {/* Image container */}
+            
             <div className="relative w-full h-[350px] mb-4 overflow-hidden">
               <Image
                 src={data.img_url}
@@ -60,21 +60,21 @@ export default function Products() {
               />
             </div>
 
-            {/* Title and Price container */}
+            
             <div className="flex flex-col items-center mt-4">
-              {/* Title */}
+             
               <p className="font-semibold text-lg mb-2">{data.title}</p>
-              {/* Price */}
+              
               <p className="text-xl text-gray-800">{data.price}</p>
             </div>
           </div>
         ))}
       </div>
 
-      {/* Single View All Button (Outside of the map loop) */}
+      
       <div className="mt-8 text-center">
-        {/* Link to the all products page */}
-        <Link href="/product/id"> {/* Ensure this path is correct */}
+        
+        <Link href="/product/id"> 
           <button className="bg-gray-200 text-black py-2 px-6 rounded-none hover:bg-gray-500 transition-all">
             View All
           </button>

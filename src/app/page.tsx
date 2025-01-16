@@ -6,7 +6,6 @@ import Head from "@/components/Head";
 import Products from "./product/Page";
 import Popular from "./product/Popular";
 
-// import Pro_detail from "./product/[id]/page";
  
 
 
@@ -20,7 +19,7 @@ export default function Home() {
       <Brand/>
       <Products/>
       <Popular/>
-       {/* <Pro_detail/>  */}
+    
     </div>
   
   );

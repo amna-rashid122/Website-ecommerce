@@ -46,10 +46,10 @@ const CollectionContainer = () => {
             <p>small studio in South London in early 2014</p>
           </div>
 
-          {/* View Collection Button at the bottom */}
+          
           <div className="mt-auto">
             <a 
-              href="/view-all"  // Link to the desired page
+              href="/view-all"  
               className="inline-block px-6 py-2 bg-gray-500 text-white rounded-none hover:bg-gray-700 transition-all duration-300"
             >
               View Collection
@@ -57,32 +57,30 @@ const CollectionContainer = () => {
           </div>
         </div>
 
-        {/* Right side: Image */}
-        <div className="w-2/3 flex justify-end"> {/* Updated for right alignment */}
+       
+        <div className="w-2/3 flex justify-end"> 
           <Image
             src="/Image Block.png"
             alt="Collection"
-            width={600}  // Set the width of the image
-            height={400} // Set the height of the image
-            className="rounded-none shadow-lg" // Optional styling for the image
+            width={600}  
+            height={400} 
+            className="rounded-none shadow-lg"
           />
         </div>
       </div>
 
-      {/* New Section: Image and Light Gray Container with Text + Button */}
       <div className="mt-12 flex items-center space-x-0">
-        {/* Left side: Image */}
+        
         <div className="flex-shrink-0 w-[720px] h-[603px]">
           <Image
-            src="/Image.png" // Change to your image path
+            src="/Image.png" 
             alt="New Arrival"
             width={720}
             height={603}
-            className="object-cover" // Ensures the image covers the container space properly
+            className="object-cover" 
           />
         </div>
 
-        {/* Right side: Light Gray Container with Text and Button */}
         <div className="bg-gray-100 text-black p-6 rounded-lg w-[720px] h-[603px] flex flex-col justify-between">
           <div>
             <h3 className="text-xl ">Our service isn’t just personal, it’s actually
@@ -93,10 +91,9 @@ const CollectionContainer = () => {
             <p className='mt-6'>Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
           </div>
 
-          {/* Get in touch Button at the bottom */}
           <div className="mt-auto">
             <a 
-              href="/get-more"  // Link to the desired page
+              href="/get-more"  
               className="inline-block px-6 py-2 bg-white text-black rounded-none hover:bg-gray-700 transition-all duration-300"
             >
               Get in touch
@@ -105,14 +102,13 @@ const CollectionContainer = () => {
         </div>
       </div>
 
-      {/* Brand Section - What makes our brand different */}
       <div>
-        <h1 className="text-center text-2xl mb-6 mt-10">What makes our brand different</h1> {/* Added mt-10 for space */}
+        <h1 className="text-center text-2xl mb-6 mt-10">What makes our brand different</h1> 
       </div>
 
       <div className="flex flex-wrap justify-between gap-8">
-        {/* Brand Item 1 */}
-        <div className="flex flex-col items-center w-1/4 sm:w-1/5 md:w-1/6 bg-[rgba(249,249,249,1)] p-6 rounded-none mt-[-20px]"> {/* Added negative margin */}
+       
+        <div className="flex flex-col items-center w-1/4 sm:w-1/5 md:w-1/6 bg-[rgba(249,249,249,1)] p-6 rounded-none mt-[-20px]"> 
           <FaTruckFast className="text-black text-3xl sm:text-4xl hover:text-orange-500 hover:scale-110 transition-all duration-300" />
           <div className="text-center mt-2">
             <p className="font-semibold">Next day as standard</p>
@@ -120,7 +116,6 @@ const CollectionContainer = () => {
           </div>
         </div>
 
-        {/* Brand Item 2 */}
         <div className="flex flex-col items-center w-1/4 sm:w-1/5 md:w-1/6 bg-[rgba(249,249,249,1)] p-6 rounded-none mt-[-20px]"> {/* Added negative margin */}
           <CiCircleCheck className="text-black text-3xl sm:text-4xl hover:text-green-500 hover:scale-110 transition-all duration-300" />
           <div className="text-center mt-2">
@@ -129,7 +124,7 @@ const CollectionContainer = () => {
           </div>
         </div>
 
-        {/* Brand Item 3 */}
+        
         <div className="flex flex-col items-center w-1/4 sm:w-1/5 md:w-1/6 bg-[rgba(249,249,249,1)] p-6 rounded-none mt-[-20px]"> {/* Added negative margin */}
           <VscCreditCard className="text-black text-3xl sm:text-4xl hover:text-red-500 hover:scale-110 transition-all duration-300" />
           <div className="text-center mt-2">
@@ -138,7 +133,7 @@ const CollectionContainer = () => {
           </div>
         </div>
 
-        {/* Brand Item 4 */}
+        
         <div className="flex flex-col items-center w-1/4 sm:w-1/5 md:w-1/6 bg-[rgba(249,249,249,1)] p-6 rounded-none mt-[-20px]"> {/* Added negative margin */}
           <LuSprout className="text-black text-3xl sm:text-4xl hover:text-yellow-500 hover:scale-110 transition-all duration-300" />
           <div className="text-center mt-2">
@@ -148,16 +143,16 @@ const CollectionContainer = () => {
         </div>
       </div>
 
-      {/* Newsletter Sign-up Section */}
-      <div className="bg-[rgba(249,249,249,1)] py-12"> {/* Outer container with gray background */}
+      
+      <div className="bg-[rgba(249,249,249,1)] py-12"> 
         <div className="flex justify-center">
           <div className="w-[1273px] h-[364px] bg-white flex flex-col items-center justify-center text-center p-6">
-            {/* Heading (h1) centered perfectly with black color */}
+            
             <h1 className="text-3xl text-black mb-4">
               Join the club and get the benefits
             </h1>
 
-            {/* Paragraph with smaller text and grey color */}
+           
             <p className="text-sm text-gray-600">
               Sign up for our newsletter and receive exclusive offers on new ranges,
             </p>
@@ -165,7 +160,7 @@ const CollectionContainer = () => {
               sales, pop-up stores, and more.
             </p>
 
-            {/* Email input and Sign Up button */}
+            
             <div className="mt-6 flex items-center">
               <input
                 type="email"
