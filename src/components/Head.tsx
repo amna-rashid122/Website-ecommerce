@@ -13,7 +13,7 @@ export default function Head() {
         </h2>
 
        
-        <button className="bg-[#F9F9F926] py-3 text-sm w-[180px] h-[56px] text-white hover:bg-[#a4a3a3] transition duration-300">
+        <button className="bg-[#F9F9F926] py-3 text-sm w-[180px] h-[56px] text-white hover:bg-[#3b3636] transition duration-300">
           View Collections
         </button>
 

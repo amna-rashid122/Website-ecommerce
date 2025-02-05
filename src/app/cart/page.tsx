@@ -99,7 +99,7 @@ export default function ShoppingCart() {
 
         
         <button
-          className="mt-3 px-4 py-2 bg-[rgba(42,37,75,1)] text-white text-sm rounded-md hover:bg-opacity-90 transition-all duration-300 mr-32"
+          className="mt-3 px-4 py-2 bg-[rgba(42,37,75,1)] hover:bg-[#333333]  text-white text-sm rounded-md hover:bg-opacity-90 transition-all duration-300 mr-32"
         >
           Go to Checkout
         </button>

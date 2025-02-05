@@ -36,7 +36,7 @@ export default function Brand() {
           <VscCreditCard className="text-black text-3xl sm:text-4xl hover:text-red-500 hover:scale-110 transition-all duration-300" />
           <div className="text-center mt-2">
             <p className="font-semibold">Unbeatable prices</p>
-            <p className="text-sm">For our materials and quality, you won’t find better prices anywhere</p>
+            <p className="text-sm">For our materials and quality, you would not find better prices anywhere</p>
           </div>
         </div>
 
