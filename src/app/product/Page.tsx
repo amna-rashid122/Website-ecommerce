@@ -9,7 +9,7 @@ interface Iproducts {
   id: number; 
 }
 
-let product: Iproducts[] = [
+const product: Iproducts[] = [
   {
     id: 1,
     title: "The Dandy chair",

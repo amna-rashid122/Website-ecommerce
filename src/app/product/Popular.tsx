@@ -9,7 +9,7 @@ interface Iproducts {
   img_url: string;
 }
 
-let product: Iproducts[] = [
+const product: Iproducts[] = [
   {
     title: "The Poplar suede sofa",
     price: "£980",
