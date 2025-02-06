@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from "next/image";
 import { FaCaretDown } from "react-icons/fa";
-import Link from "next/link"; 
+
 
 
 interface Iproducts {
@@ -12,7 +12,7 @@ interface Iproducts {
   id: number;
 }
 
-let product: Iproducts[] = [
+const product: Iproducts[] = [
   {
     id: 1,
     title: "The Dandy chair",
@@ -39,7 +39,7 @@ let product: Iproducts[] = [
   },
 ];
 
-let secondProduct: Iproducts[] = [
+const secondProduct: Iproducts[] = [
   {
     id: 1,
     title: "",
@@ -71,7 +71,7 @@ const page = () => {
     <div>
       
       <div>
-        <img 
+        <Image
           src="/Frame 143.png" 
           alt="Description of Image" 
           style={{ width: "100%", height: "auto" }} 

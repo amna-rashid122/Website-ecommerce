@@ -1,5 +1,6 @@
 
 import React from "react";
+import Image from "next/image";
 
 export default function ShoppingCart() {
   return (
@@ -18,10 +19,12 @@ export default function ShoppingCart() {
       <div className="flex items-center mt-6">
         
         <div className="w-[120px] h-[120px] bg-gray-300 rounded-md">
-          <img
+          <Image
             src="/Product Image.png"
             alt="Graystone Vase"
             className="w-full h-full object-cover rounded-md"
+            width={2}
+            height={2}
           />
         </div>
 
@@ -54,10 +57,12 @@ export default function ShoppingCart() {
       <div className="flex items-center mt-6">
         
         <div className="w-[120px] h-[120px] bg-gray-300 rounded-md">
-          <img
+          <Image
             src="/Product Image (1).png"
             alt="Graystone Vase"
             className="w-full h-full object-cover rounded-md"
+            width={2}
+            height={2}
           />
         </div>
 

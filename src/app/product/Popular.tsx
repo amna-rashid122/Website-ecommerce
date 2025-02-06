@@ -1,7 +1,7 @@
 
 
 import Image from "next/image";
-import Link from "next/link"; 
+
 
 interface Iproducts {
   title: string;
@@ -109,10 +109,13 @@ export default function Popular() {
 
 
 <div className="flex justify-center mt-8">
-  <img
+  <Image
     src="/Features.png" 
     alt="Description of the image"
     className="w-full max-w-[1273px] h-auto"
+width={3}
+height={2}
+    
   />
 </div>
 
